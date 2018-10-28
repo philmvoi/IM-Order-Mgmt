@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Assignment</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.AssignmentLine</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.AssignmentStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Country</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Customer</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.CustomerStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.CustomerType</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Employee</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.EmployeeStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.EmployeeType</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Filling</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.FillingStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Flavor</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.FlavorStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Frosting</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.FrostingStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Occasion</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrderFulfillmentMethod</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrderLineStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrderPlacementMethod</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrderStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Orderline</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Orders</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Ornament</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrnamentColor</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrnamentLine</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrnamentSize</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrnamentStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.OrnamentType</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.ProductLayer</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.ProductType</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Shape</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.ShapeStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.Size</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.SizeStatus</class>
+        <class>edu.uh.tech.cis3368.testingnancy.Entities.StateProvince</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost;database=Complete_DB_V_3"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
